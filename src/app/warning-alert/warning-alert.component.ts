@@ -9,4 +9,4 @@ import { Component } from '@angular/core';
   styleUrls: ['../../styles/assignment-one.css']
 })
 
-export class WarningAlert {}
+export class WarningAlertComponent {}

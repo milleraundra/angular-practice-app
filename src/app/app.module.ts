@@ -6,14 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ListitemComponent } from './listitem/listitem.component';
 import { ListComponent } from './list/list.component';
-import { WarningAlert } from './warning-alert/warning-alert.component';
+import { WarningAlertComponent } from './warning-alert/warning-alert.component';
+import { SuccessAlertComponent } from './success-alert/success-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListitemComponent,
     ListComponent,
-    WarningAlert
+    WarningAlertComponent,
+    SuccessAlertComponent
   ],
   imports: [
     BrowserModule,
