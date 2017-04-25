@@ -5,15 +5,7 @@ import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-list',
-  template: `
-    <ul>
-      <li>
-        <app-listitem></app-listitem>   
-      </li>
-      <li>
-        <app-listitem></app-listitem>   
-      </li>
-    </ul>`,
+  templateUrl: './list.component.html',
   // styleUrls: ['./list.component.css']
   styles: [`
     ul {
