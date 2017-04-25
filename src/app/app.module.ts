@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { ListitemComponent } from './listitem/listitem.component';
 import { ListComponent } from './list/list.component';
+import { WarningAlert } from './warning-alert/warning-alert.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ListitemComponent,
-    ListComponent
+    ListComponent,
+    WarningAlert
   ],
   imports: [
     BrowserModule,
