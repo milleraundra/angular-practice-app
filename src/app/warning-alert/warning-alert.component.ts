@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: ['../../styles/assignment-one.css']
 })
 
-export class WarningAlertComponent {}
+export class WarningAlertComponent {
+  username = 'Bert'
+}
