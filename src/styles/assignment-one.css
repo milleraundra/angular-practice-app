@@ -1,0 +1,10 @@
+.warning {
+  color: red;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.success {
+  color: darkgreen;
+  text-decoration: underline;
+}
