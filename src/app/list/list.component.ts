@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-list',
-  templateUrl: './list.component.html',
+  template: '<app-listitem></app-listitem><app-listitem></app-listitem>',
   styleUrls: ['./list.component.css']
 })
 
