@@ -1,7 +1,7 @@
 /**
  * Created by aundramiller on 4/25/17.
  */
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'warning-alert',
@@ -10,5 +10,9 @@ import { Component } from '@angular/core';
 })
 
 export class WarningAlertComponent {
-  username = 'Bert'
+  username = 'Bert';
+
+  onUpdateUsername(event: Event) {
+    this.username = (<HTMLInputElement>event.target).value;
+  }
 }
