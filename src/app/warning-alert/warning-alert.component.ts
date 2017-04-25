@@ -15,4 +15,8 @@ export class WarningAlertComponent {
   onUpdateUsername(event: Event) {
     this.username = (<HTMLInputElement>event.target).value;
   }
+
+  onUserNameSubmit() {
+    this.username = '';
+  }
 }
