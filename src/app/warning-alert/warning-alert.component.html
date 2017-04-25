@@ -6,5 +6,6 @@
   >
 
 <button
+  [disabled]="!username"
   (click)="onUserNameSubmit()">Submit</button>
 <div>Username: {{ username }}</div>
