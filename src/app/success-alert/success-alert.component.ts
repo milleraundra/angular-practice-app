@@ -19,7 +19,11 @@ export class SuccessAlertComponent implements OnInit {
     this.showDetails = !this.showDetails;
     this.clickArray.push(this.clickCount);
     this.clickCount++
+  }
 
+  checkCount(number) {
+    return number > 4;
+    // console.log(number);
   }
 
 }

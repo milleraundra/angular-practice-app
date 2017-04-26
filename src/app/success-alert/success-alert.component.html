@@ -1,3 +1,18 @@
 <button (click)="onDisplayClick()">Display Details</button>
 <p *ngIf="showDetails">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
-<p *ngFor="let clickNumber of clickArray">{{ clickNumber }}</p>
+<div
+  *ngFor="let clickNumber of clickArray">
+  <p
+    [ngStyle]="{backgroundColor: clickNumber > 4 ? 'darkblue' : 'white'}"
+    [ngClass]="{fiveOrMore: clickNumber > 4 }">
+    {{ clickNumber }}
+  </p>
+</div>
+<!--<div-->
+  <!--*ngFor="let clickNumber of clickArray">-->
+  <!--<p-->
+    <!--[ngStyle]="{backgroundColor: checkCount(clickNumber) ? 'darkblue' : 'white'}"-->
+    <!--[ngClass]="{fiveOrMore: checkCount(clickNumber) ? true : false }">-->
+    <!--{{ clickNumber }}-->
+  <!--</p>-->
+<!--</div>-->
