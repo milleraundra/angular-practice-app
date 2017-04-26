@@ -10,13 +10,16 @@ import {Component} from '@angular/core';
 })
 
 export class WarningAlertComponent {
-  username = 'Bert';
+  username = '';
+  submit = false;
 
   onUpdateUsername(event: Event) {
+    // this.submit = false;
     this.username = (<HTMLInputElement>event.target).value;
   }
 
   onUserNameSubmit() {
+    this.submit = true;
     this.username = '';
   }
 }
