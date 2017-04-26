@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['../../styles/assignment-one.css']
 })
 export class SuccessAlertComponent implements OnInit {
-  clickCount = 0;
+  clickCount = 1;
   clickArray = [];
   showDetails = false;
 
